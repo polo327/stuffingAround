@@ -1,0 +1,18 @@
+#expandBar
+{
+	height: 200px;
+	width: 100%;
+	background-color: rgb(150, 165, 255);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#topListsBar
+{
+	height: 30px;
+	width: 100%;
+	background-color: rgb(200, 215, 255);
+	position: absolute;
+	top: 200px;
+	left: 0;
+}
