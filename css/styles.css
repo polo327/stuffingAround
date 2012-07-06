@@ -19,15 +19,14 @@
 }
 #content
 {
-	background-color: rgb(200, 200, 200);
+	background-color: rgb(255, 255, 255);
 	position: absolute;
 	top: 250px;
 	left: 50%;
 	width: 1000px;
 	height: 100%;
 	margin-left: -500px;
-	box-shadow: 6px 6px 10px -7px #888, -6px -6px 10px -7px #888;
-
+	box-shadow: 18px 18px 22px -19px #FFFFFF, -18px -18px 22px -19px #FFFFFF;
 }
 body
 {
