@@ -1,0 +1,35 @@
+#expandBar
+{
+	height: 200px;
+	width: 100%;
+	background-color: rgb(50, 50, 50);
+	background-image: url('../images/greyBack.png');
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#topListsBar
+{
+	height: 30px;
+	width: 100%;
+	background-color: rgb(50, 50, 50);
+	position: absolute;
+	top: 200px;
+	left: 0;
+}
+#content
+{
+	background-color: rgb(200, 200, 200);
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	width: 1000px;
+	height: 100%;
+	margin-left: -500px;
+	box-shadow: 6px 6px 10px -7px #888, -6px -6px 10px -7px #888;
+
+}
+body
+{
+	background-color: black;
+}
