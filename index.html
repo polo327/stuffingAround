@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!-- stylesheets -->
+		<link rel="StyleSheet" href="css/styles.css" type="text/css"/>
+		<link type="text/css" href="pikaStyles/bottom.css" rel="stylesheet"/>
 		<!-- js scripts -->
 		<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
 		<script type="text/javascript" src="js/positioningScript.js"></script>
 		<script type="text/javascript" src="js/topBarScript.js"></script>
-		<script type="text/javascript" src="js/sliderScript.js"></script>
-		<!-- stylesheets -->
-		<link rel="StyleSheet" href="css/styles.css" type="text/css"/>
-		<link rel="stylesheet" type="text/css" href="css/slider.css" />
+		<script type="text/javascript" src="pikaJs/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="pikaJs/jquery.pikachoose.js"></script>
+		<script language="javascript">
+			$(document).ready(
+				function (){
+					$("#pikame").PikaChoose({carousel:true});
+				});
+		</script>
 		<title>Stuffing Around</title>
 	</head>
 	<body>
 		<div id="expandBar">
 		</div>
-		<div id="topListsBar">
-		</div>
 		<div id="content">
-			<div id="slider">
-				<div class="show">
-					<img src="staticSlider/slide1.jpeg"/>
-					<h1>Shakespeare</h1>
-					<p>Become an expert on all the works of the late, great bard</p>
-				</div>
-				<div>
-					<img src="staticSlider/slide2.jpeg"/>
-					<h1>Calculus</h1>
-					<p>Ace your next undergraduate calculus exam with ease.</p>
-				</div>
-				<div>
-					<img src="staticSlider/slide3.jpeg"/>
-					<h1>Rules of Football</h1>
-					<p>Tired of being the only person in the pub who doesn't know what's going on? This pack is for you.</p>
-				</div>
-				<div>
-					<img src="staticSlider/slide4.jpeg"/>
-					<h1>Astronomy 101</h1>
-					<p>Astronomy 101 is perfect for anyone who's ever been interested in any of the phenomena of the heavens.</p>
-				</div>
+			<div class="pikachoose">
+				<ul id="pikame" class="jcarousel-skin-pika">
+					<li><img src="staticSlider/slide1.jpeg"/><span><h1>Shakespeare</h1>Use this learning pack to become an expert on all the works of the bard.</span></li>
+					<li><img src="staticSlider/slide2.jpeg"/><span><h1>Calculus</h1>Ace your next undergraduate calculus test with the help of this learning pack</span></li>
+					<li><img src="staticSlider/slide3.jpeg"/><span><h1>Rules of Football</h1>Tired of being the only person in the bar who doesn't know the difference between a penalty and a goal kick? This pack is for you.</span></li>
+					<li><img src="staticSlider/slide4.jpeg"/><span><h1>Astronomy 101</h1>Go an educational adventure through all the phenomena of space and beyond.</span></li>
+				</ul>
 			</div>
 		</div>
 	</body>

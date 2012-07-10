@@ -1,20 +1,11 @@
 #expandBar
 {
-	height: 200px;
+	height: 230px;
 	width: 100%;
 	background-color: rgb(50, 50, 50);
 	background-image: url('../images/greyBack.png');
 	position: absolute;
 	top: 0;
-	left: 0;
-}
-#topListsBar
-{
-	height: 30px;
-	width: 100%;
-	background-color: rgb(50, 50, 50);
-	position: absolute;
-	top: 200px;
 	left: 0;
 }
 #content

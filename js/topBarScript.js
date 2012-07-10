@@ -2,15 +2,11 @@ $(document).ready(function()
 {
 	$('#expandBar').click(function()
 	{
-		if($('#expandBar').css('height') == '50px')
+		if($('#expandBar').css('height') == '80px')
 		{
 			$(this).animate(
 			{
-				height: '200px'
-			}, 600, 'swing');
-			$('#topListsBar').animate(
-			{
-				top: '200px'
+				height: '230px'
 			}, 600, 'swing');
 			$('#content').animate(
 			{
@@ -20,11 +16,7 @@ $(document).ready(function()
 		{
 			$(this).animate(
 			{
-				height: '50px'
-			}, 600, 'swing');
-			$('#topListsBar').animate(
-			{
-				top: '50px'
+				height: '80px'
 			}, 600, 'swing');
 			$('#content').animate(
 			{
